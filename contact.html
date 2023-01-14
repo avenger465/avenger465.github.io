@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Jonathan Mills</title>
+    <title>Contact - Jonathan Mills</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
@@ -16,36 +16,26 @@
         <div class="container"><a class="navbar-brand logo" href="index.html">Jonathan Mills</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
                     <li class="nav-item"></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="page lanidng-page">
-        <section class="portfolio-block block-intro">
-            <div class="container"><div class="avatar" style="background-image: url('assets/img/ProfilePic.jpg');"></div>
-                <div class="about-me">
-                    <p>Hello! I am Jonathan Mills. I am currently studying for a Masters in Computer Games Development at the University of Central Lancashire (UCLan). I have a passion for all things Graphical.</p>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio-block photography">
-            <div class="container align-items-center align-content-center align-self-center align-items-xl-center">
-                <div class="col">
-                    <div class="row justify-content-center">
-                        <div class="col"><img src="assets/img/ProcGen.jpg"></div>
-                    </div>
-                    <div class="row justify-content-center">
-                        <div class="col"><img src="assets/img/GameEngine.jpg"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio-block call-to-action border-bottom">
+    <main class="page contact-page">
+        <section class="portfolio-block contact">
             <div class="container">
-                <div class="d-flex justify-content-center align-items-center content"></div>
+                <div class="heading">
+                    <h2>Contact me</h2>
+                </div>
+                <form data-bss-recipient="24bd61a11b26dd681f4d8ec1bf2e3b4a">
+                    <div class="mb-3"><label class="form-label" for="name">Your Name</label><input class="form-control item" type="text" id="name"></div>
+                    <div class="mb-3"><label class="form-label" for="subject">Subject</label><input class="form-control item" type="text" id="subject"></div>
+                    <div class="mb-3"><label class="form-label" for="email">Email</label><input class="form-control item" type="email" id="email"></div>
+                    <div class="mb-3"><label class="form-label" for="message">Message</label><textarea class="form-control item" id="message"></textarea></div>
+                    <div class="mb-3"><button class="btn btn-primary btn-lg d-block w-100" type="submit">Submit Form</button></div>
+                </form>
             </div>
         </section>
     </main>
@@ -56,6 +46,7 @@
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
