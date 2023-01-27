@@ -27,42 +27,213 @@
         <section class="portfolio-block project-no-images">
             <div class="container">
                 <div class="heading">
-                    <h2>Recent Work</h2>
+                    <h2>Currently Working on</h2>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
-                            <h3>Vulkan Ray Tracer</h3>
-                            <h4>Vulkan Renderer with RayTracing support</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">See More</a>
+                            <h3>Vulkan Renderer</h3>
+                            <h4>Vulkan Renderer with RayTracing support</h4><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#RayTracer"> See More </button>
+                            <div class="modal fade" role="dialog" tabindex="-1" id="RayTracer">
+                                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title">Vulkan RayTracer&nbsp;<br>(WORK IN PROGRESS)</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <header class="text-center"><span class="fs-1 text-center">Info</span></header>
+                                            <p class="text-center">A Graphics Renderer created with the Vulkan API for my Masters Project.&nbsp;&nbsp;</p><img class="img-fluid" src="assets/img/VulkanRasterization.jpg">
+                                            <div class="row d-flex">
+                                                <div class="col">
+                                                    <header class="fs-3 fw-semibold text-center"><span>Features</span></header>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li>Physically Based Rendering</li>
+                                                        <li>Model Loading</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col">
+                                                    <header class="fs-3 fw-semibold text-center"><span>Tools and Libraries</span></header>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li>Vulkan</li>
+                                                        <li>GLM</li>
+                                                        <li>ImGui</li>
+                                                        <li>GLFW</li>
+                                                        <li>STB_Image</li>
+                                                        <li>Assimp</li>
+                                                        <li>GLSL</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="tags"><a href="#">C++</a></div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
-                            <h3>Terrain Proc-Gen</h3>
-                            <h4>3rd year project investigating the algorithms used in the Proc-Gen of terrain in games</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">See More</a>
-                            <div class="tags"><a href="#">C++</a></div>
+                            <h3>Team Project</h3>
+                            <h4>Masters Team Project</h4><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TeamProject"> See More </button>
+                            <div class="modal fade" role="dialog" tabindex="-1" id="TeamProject">
+                                <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title">Team Project</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <header class="text-center"><span class="fs-1 text-center">Info</span></header>
+                                            <p class="text-center">The Team Masters Project Module.&nbsp; It is about a Frog in a Mech suit having to fight other frogs in a wave based system</p>
+                                            <div class="row d-flex">
+                                                <div class="col">
+                                                    <header class="fs-3 fw-semibold text-center"><span>Responsibilities</span></header>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li>User Interface</li>
+                                                        <li>Combat&nbsp;</li>
+                                                        <li>Skill Tree</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col">
+                                                    <header class="fs-3 fw-semibold text-center"><span>Tools</span></header>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li>Unreal Engine</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tags"><a href="https://www.unrealengine.com/en-US" target="_blank">UE4</a></div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="project-card-no-image">
-                            <h3>Interstellar Frog Builder</h3>
-                            <h4>Master's Team Project</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">See More</a>
-                            <div class="tags"><a href="#">C++</a></div>
-                        </div>
-                    </div>
+                </div>
+                <div class="heading">
+                    <h2>Previous Projects</h2>
+                </div>
+                <div class="row">
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
                             <h3>Game Engine</h3>
-                            <h4>Personal Project to understand how game engines are designed</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">See More</a>
+                            <h4>Personal Project to understand how game engines are designed</h4><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#GameEngine"> See More </button>
+                            <div class="modal fade" role="dialog" tabindex="-1" id="GameEngine">
+                                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title">Game Engine</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <header class="text-center"><span class="fs-1 text-center">Info</span></header>
+                                            <p class="text-center">A Personal Project Initially undertaken to understand how game engines are architected. Currently supports DirectX11 and basic OpenGL support with intentions to add Vulkan once my Masters Project is completed. A full Entity Component System is also intended to be added along with scene serialisation.</p><img class="img-fluid justify-content-center align-items-center align-content-center align-self-center justify-content-lg-center" src="assets/img/GameEngine.jpg">
+                                            <div class="row d-flex">
+                                                <div class="col">
+                                                    <header class="fs-3 fw-semibold text-center"><span>Features</span></header>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li>Rendering API Abstraction</li>
+                                                        <li>Entity Creation</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col">
+                                                    <header class="fs-3 fw-semibold text-center"><span>Tools and Libraries</span></header>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li>DirectX11</li>
+                                                        <li>OpenGL</li>
+                                                        <li>ImGui</li>
+                                                        <li>Assimp</li>
+                                                        <li>TinyXML</li>
+                                                        <li>SPDLog</li>
+                                                        <li>HLSL/GLSL</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div><a class="fs-1 text-center" href="https://github.com/avenger465/Game-Engine" target="_blank"><i class="icon ion-social-github text-center"></i></a>
+                                        <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="tags"><a href="#">C++</a></div>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="project-card-no-image">
-                            <h3>Carbon Push</h3>
-                            <h4>Second Year assignment used to learn Unreal Engine 4</h4><a class="btn btn-outline-primary btn-sm" role="button" href="#">See More</a>
-                            <div class="tags"><a href="https://www.unrealengine.com/en-US" target="_blank">UE4</a></div>
+                            <h3>Terrain Procedural Generation</h3>
+                            <h4>3rd year project investigating the algorithms used in the Proc-Gen of terrain in games</h4><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#TerrainEngine"> See More </button>
+                            <div class="modal fade" role="dialog" tabindex="-1" id="TerrainEngine">
+                                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title">Procedural Generation of Terrain</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <header class="text-center"><span class="fs-1 text-center">Info</span></header>
+                                            <p class="text-center">My 3rd year project was undertaken to understand how popular Procedural Generation algorithms are used to create an nearly infinite amount of content (in particular Terrain) for Video Games.</p><img class="img-fluid justify-content-center align-items-center align-content-center align-self-center justify-content-lg-center" src="assets/img/ProcGen.jpg">
+                                            <div class="row d-flex">
+                                                <div class="col">
+                                                    <header class="fs-3 fw-semibold text-center"><span>Features</span></header>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li>Proc-Gen Terrain using several popular algorithms</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col">
+                                                    <header class="fs-3 fw-semibold text-center"><span>Tools and Libraries</span></header>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li>DirectX11</li>
+                                                        <li>Premake</li>
+                                                        <li>ImGui</li>
+                                                        <li>Assimp</li>
+                                                        <li>HLSL</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div><a class="fs-1 text-center" href="https://github.com/avenger465/TerrainEngine" target="_blank"><i class="icon ion-social-github text-center"></i></a>
+                                        <div class="modal-footer text-center"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tags"><a href="#">C++</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="project-card-no-image">
+                            <h3>Post Processing</h3>
+                            <h4>3rd year assignment on creating common Post Processing effects seen in games today</h4><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#PostProcessing"> See More </button>
+                            <div class="modal fade" role="dialog" tabindex="-1" id="PostProcessing">
+                                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2 class="modal-title">Post-Processing</h2><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <header class="text-center"><span class="fs-1 text-center">Info</span></header>
+                                            <p class="text-center">Project created for a 3rd year assignment to replicate popular Post-Processing effects that are commonly used within Video Games today. Implemented using DirectX11 and HLSL</p><img class="img-fluid justify-content-center align-items-center align-content-center align-self-center justify-content-lg-center" src="assets/img/PostProcessing.jpg">
+                                            <div class="row d-flex">
+                                                <div class="col">
+                                                    <header class="fs-3 fw-semibold text-center"><span>Features</span></header>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li>Several popular Post-Processing effects seen in Video Games today</li>
+                                                        <li>Polygon Post-Processing</li>
+                                                        <li>Full screen Post-Processing</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col">
+                                                    <header class="fs-3 fw-semibold text-center"><span>Tools and Libraries</span></header>
+                                                    <ul class="list-unstyled text-center">
+                                                        <li>DirectX11</li>
+                                                        <li>Premake</li>
+                                                        <li>ImGui</li>
+                                                        <li>Assimp</li>
+                                                        <li>HLSL</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div><a class="fs-1 text-center" href="https://github.com/avenger465/UniversityPostProcessingAssignment" target="_blank"><i class="icon ion-social-github text-center"></i></a>
+                                        <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Close</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tags"><a href="https://www.unrealengine.com/en-US" target="_blank">C++</a></div>
                         </div>
                     </div>
                 </div>
